@@ -1,0 +1,113 @@
+/*Por elemento p, div*/
+/*Por clase    .boton*/
+/*Por id       #boton-default*/
+/*Vamos a definir una clase para afectar de manera general*/
+.boton{
+    /*padding: 10px;*/
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 0px;
+}
+/*Esto es para la clase default*/
+.default{
+    border: 1px;
+    border-style: solid;
+    border-color: #e5e5e5;
+    
+}
+/*Cuando el mouse pase por el boton*/
+.default:hover{
+    background-color: #e5e5e5;
+}
+
+/* Para la clase primary*/
+.primary{
+    border: 1px;
+    border-style: solid;
+    background-color: #0000ff;
+    color: white;
+}
+/*Cuando el mouse pase por el boton*/
+.primary:hover{
+    background-color:mediumblue;
+}
+/* Para la clase Secondary*/
+.secondary{
+    border: 1px;
+    border-style: solid;
+    background-color:gray;
+    color: white;
+}
+/*Cuando el mause pase por el boton*/
+.secondary:hover{
+    background-color:dimgray;
+}
+/*Para la clase Success*/
+.success{
+    border: 1px;
+    border-style: solid;
+    background-color: #008000 ;
+    color: white;
+}
+/*Cuando el mouse pasa por el boton*/
+.success:hover{
+    background-color:darkgreen;
+}
+/*Para la clase info*/
+.info{
+    border: 1px;
+    border-style: solid;
+    background-color:  #18bdaa;
+    color: #ffffff;
+}
+/*Cuando el mouse pasa por el boton*/
+.info:hover{
+    background-color:darkcyan;
+}
+/*Para la clase Danger*/
+.danger{
+    border: 1px;
+    border-style:solid;
+    background-color:red;
+    color: #ffffff;
+}
+/*Cuando el mouse pasa por el boton*/
+.danger:hover{
+    background-color:darkred;
+}
+/*Para la clase Warning*/
+.warning{
+    border: 1px;
+    border-style: solid;
+    border-color: yellow;
+    background-color:yellow;
+}
+/*Cuando el mouse pasa por el boton*/
+.warning:hover{
+    background-color: #d7d715;;
+}
+/*Para la clase ligth*/
+.ligth{
+    border: 1px;
+    border-style: solid;
+    border-color: #e5e5e5;
+}
+/*Cuando el mouse para el boton*/
+.ligth:hover{
+    background-color: #e5e5e5;
+}
+/*Para la clase dark*/
+.dark{
+    border: 1px;
+    border-style: solid;
+    background-color:dimgrey;
+    color: #ffffff;
+}
+/*Cuando el mouse pasa el boton*/
+.dark:hover{
+    background-color:rgb(70, 70, 70);
+}
