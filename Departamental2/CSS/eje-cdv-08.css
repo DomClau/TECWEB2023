@@ -1,0 +1,68 @@
+#div-container{
+    width: 50%;
+    /*Sombras*/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /*Centrar el contenedor*/
+    margin: auto;
+    display: flex;
+}
+
+#div-image{
+    width: 34%;
+    background-color: yellow;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+input{
+    display:block;
+
+}
+
+#div-form{
+    width: 66%;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+#img-audifonos{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.textos-100{
+    width: 100%;
+}
+
+#pagar-reservacion{
+    border-radius: 5px;
+    background-color: rgb(2, 185, 2);
+    color: white;
+    padding: 15px 25px 15px 25px;
+    border-color: rgb(2, 185, 2);
+    border-style: solid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#nombre{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom-color: yellow ;
+
+}
+
+#tarjeta{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex input[type="text"]{
+    flex: 1 1 auto;
+}
+
