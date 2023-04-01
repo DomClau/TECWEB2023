@@ -1,0 +1,164 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-shadow: 5px 5px 5px #6c1d45;
+    color: whitesmoke;
+}
+
+#barra-botones{
+    display: flex;
+    margin: 0 20px;
+}
+
+button{
+    flex-direction: row;
+}
+
+main{
+    margin: 0 20px;
+}
+
+div{
+    padding: 5px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #6c1d45;
+}
+
+img.mediana{
+    width: 500px;
+    height: 450px;
+}
+h2,h3{
+    color:#6c1d45;
+}
+.boton{
+    /*padding: 10px;*/
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 0px;
+}
+
+.centrado{
+    text-align: center;
+    padding: 8px;
+}
+
+
+.inicio{
+    border: 1px;
+    border-style: solid;
+    background-color:#6c1d45;
+    color: white;
+}
+.inicio:hover{
+    background-color: ivory;
+    color: #6c1d45;
+}
+.tipos{
+    border: 1px;
+    border-style: solid;
+    background-color:#6c1d45;
+    color: white;
+}
+.tipos:hover{
+    background-color: ivory;
+    color: #6c1d45;
+}
+.proceso{
+    border: 1px;
+    border-style: solid;
+    background-color:#6c1d45;
+    color: white;
+}
+.proceso:hover{
+    background-color: ivory;
+    color: #6c1d45;
+}
+.html{
+    border: 1px;
+    border-style: solid;
+    background-color:#6c1d45;
+    color: white;
+}
+.html:hover{
+    background-color: ivory;
+    color: #6c1d45;
+}
+.css{
+    border: 1px;
+    border-style: solid;
+    background-color: #6c1d45;
+    color: white;
+}
+.css:hover{
+    background-color: ivory;
+    color: #6c1d45;
+}
+.js{
+    border: 1px;
+    border-style: solid;
+    background-color: #6c1d45;
+    color: white;
+}
+.js:hover{
+    background-color: ivory;
+    color: #6c1d45;
+}
+.multiplataforma{
+    border: 1px;
+    border-style: solid;
+    background-color: #6c1d45;
+    color: white;
+}
+.multiplataforma:hover{
+    background-color: ivory;
+    color: #6c1d45;
+}
+.herramientas{
+    border: 1px;
+    border-style: solid;
+    background-color: #6c1d45;
+    color: white;
+}
+.herramientas:hover{
+    background-color: ivory;
+    color: #6c1d45;
+}
+.regresar{
+    border: 1px;
+    border-style: solid;
+    background-color: #6c1d45;
+    color: white;
+}
+.regresar:hover{
+    background-color: ivory;
+    color: #6c1d45;
+}
+
+#tipos-app{
+    background-image:url("imagenes/fondo4.png")
+}
+
+#desarrollo-app{
+    background-image: url("imagenes/fondo3.png");
+}
+
+#sec-html{
+    background-image: url("imagenes/fondo4.png");
+}
+
+#app-multi{
+    background-image: url("imagenes/fondo3.png");
+}
